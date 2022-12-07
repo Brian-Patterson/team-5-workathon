@@ -24,9 +24,9 @@ export default function BenefitsPage(props) {
                 </Dropdown.Menu>
             </Dropdown> */}
     <nav className="benefits-nav">
-        <button>WIC</button>
-        <button>Food Stamps</button>
-        <button>School Assistence</button>
+        <button className="nav-button wic">WIC</button>
+        <button className="nav-button fs">Food Stamps</button>
+        <button className="nav-button sa">School Assistence</button>
     </nav>
 
 
