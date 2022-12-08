@@ -7,38 +7,43 @@ import "./EventsPage.css"
 export default function EventsShowPage(props) {
     return (
         <>
-       <Card className="showPage-Card">
-        <Card.Header>Charity Drive</Card.Header>
-        <Card.Img variant="top" src="https://developers.google.com/static/maps/images/landing/android_codelab.png" />
-        <Card.Body>
+        <body className='body'>
+
+
+        <img className="event-map" src="https://developers.google.com/static/maps/images/landing/android_codelab.png" />
+        <Card.Body className='event-show-body'>
             <Card.Title>SF - Marin Food Bank</Card.Title>
             <Card.Text>
             900 Pennsylvania Ave, San Francisco, CA 94107
             </Card.Text>  
         </Card.Body>
-        <CardGroup>
-            <Card style={{width: "30%", display: "inline-block"}}>
+        <div className='event-show-info'>
+            <div>
+
                 <Card.Img className='card-phone-icon' style={{width: "4rem"}} Variant="top" src="https://t4.ftcdn.net/jpg/00/82/56/67/240_F_82566747_T7dXb2E3KI6cV5yFekgL7BO58kOtFt6Y.jpg" />
                 <Card.Title>Contact</Card.Title>
                 <Card.Text>(415) 282-1900</Card.Text>
-            </Card>
-            <Card style={{width: "30%", display: "inline-block"}}>
+            </div>
+            <div>
+
                 <Card.Img className='card-pc-icon' style={{width: "4rem"}} Variant="top" src="https://t4.ftcdn.net/jpg/00/96/28/69/240_F_96286992_ab9NG09yCCmIDxLfTX8g1tFdwvzCE7Pf.jpg" />
                 <Card.Title>Website</Card.Title>
-                <Card.Text><a src="https://www.sfmfoodbank.org/">Website</a></Card.Text>
-            </Card>
-            <Card style={{width: "30%", display: "inline-block"}}>
+                <Card.Text><a src="https://www.sfmfoodbank.org/"></a></Card.Text>
+            </div>
+            <div>
+
                 <Card.Img className='card-clock-icon' style={{width: "4rem"}} Variant="top" src="https://t3.ftcdn.net/jpg/01/64/09/16/240_F_164091630_VaTUAAxbkt4NToNPfnWoPkfxEqmTVdJr.jpg" />
                 <Card.Title>Hours</Card.Title>
                 <Card.Text>8:00AM - 5:00PM</Card.Text>
-            </Card>
-            <Card style={{width: "30%", display: "inline-block"}}>
+            </div>
+            <div>
+
                 <Card.Img className='card-heart-icon' style={{width: "4rem"}} Variant="top" src="https://cdn-icons-png.flaticon.com/128/1000/1000621.png" />
                 <Card.Title>Save</Card.Title>
                 <Card.Text></Card.Text>
-            </Card>
-        </CardGroup>
-       </Card>
+            </div>
+
+        </div>
         <ListGroup variant="flush">
             <ListGroup.Item
             as="li"
@@ -48,17 +53,15 @@ export default function EventsShowPage(props) {
                 Join the Marin Food Bank for their 5th anual Marin Food Bank Food Drive!
                 </div>
             </ListGroup.Item>
-                <ListGroup.Item
-                as="li"
-                className="d-flex justify-content-between align-items-start">
+                <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
                     <div className="ms-2 me-auto">
-                    <div className="fw-bold">Eligible Foods</div>
-                    <ListGroup horizontal>
+                    <div className="fw-bold eligibility">Eligible Foods</div>
+                    <div className="event-eligible-foods">
                         <ListGroup.Item>Canned Goods<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
                         <ListGroup.Item>Sealed Packages<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
                         <ListGroup.Item>Dehydrated Foods<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
-                        <ListGroup.Item>Fresh Fruit and Veggies<span ><img src="https://cdn-icons-png.flaticon.com/128/1633/1633636.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
-                    </ListGroup>
+                        <ListGroup.Item>Fresh Produce<span ><img src="https://cdn-icons-png.flaticon.com/128/1633/1633636.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
+                    </div>
                     </div>
             </ListGroup.Item>
                 <ListGroup.Item
@@ -71,6 +74,8 @@ export default function EventsShowPage(props) {
 
             </ListGroup.Item>
         </ListGroup>
+
+    
         <Carousel>
       <Carousel.Item>
         <Card className="bg-dark text-white">
@@ -112,7 +117,7 @@ export default function EventsShowPage(props) {
         </Card>
       </Carousel.Item>
     </Carousel>
-
+    </body>
         </>
     )
 }
