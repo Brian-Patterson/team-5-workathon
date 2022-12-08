@@ -8,13 +8,13 @@ const EventsList = (props) => {
         <body className="body">
 
     <nav className="benefits-nav">
-        <button className="nav-button wic">WIC</button>
-        <button className="nav-button fs">Food Stamps</button>
-        <button className="nav-button sa">School Assistence</button>
+        <button className="nav-button wic">Today</button>
+        <button className="nav-button fs">Tomorrow</button>
+        <button className="nav-button sa">This Week</button>
     </nav>
 
         <h1 className="event-date">12/09/2022 </h1>
-    <NavLink to="/events/details">
+    <NavLink to="/events/details" className="events-link" style={{textDecoration: "none"}} >
     <Card className="event-card">
       <Card.Body className="event-body">
         <blockquote className="blockquote mb-0">
@@ -32,7 +32,7 @@ const EventsList = (props) => {
       </Card.Body>
     </Card>
     </NavLink>
-    
+
     <Card className="event-card">
       <Card.Body className="event-body">
         <blockquote className="blockquote mb-0">
