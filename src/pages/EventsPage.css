@@ -11,13 +11,15 @@
 .event-show-info {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 1rem; 
+    margin: .25rem;
+     
 }
 
 .event-eligible-foods {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    border: none;
 }
 
 .eligibility {

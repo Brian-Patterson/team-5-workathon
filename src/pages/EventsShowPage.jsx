@@ -15,6 +15,8 @@ export default function EventsShowPage(props) {
             <Card.Title>SF - Marin Food Bank</Card.Title>
             <Card.Text>
             900 Pennsylvania Ave, San Francisco, CA 94107
+            <br></br>
+            <img src="https://cdn-icons-png.flaticon.com/128/992/992000.png" style={{width: "7rem"}}/>
             </Card.Text>  
         </Card.Body>
         <div className='event-show-info'>
@@ -53,25 +55,16 @@ export default function EventsShowPage(props) {
                 Join the Marin Food Bank for their 5th anual Marin Food Bank Food Drive!
                 </div>
             </ListGroup.Item>
-                <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
+                <ListGroup.Item as="li">
                     <div className="ms-2 me-auto">
                     <div className="fw-bold eligibility">Eligible Foods</div>
                     <div className="event-eligible-foods">
-                        <ListGroup.Item>Canned Goods<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
-                        <ListGroup.Item>Sealed Packages<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
-                        <ListGroup.Item>Dehydrated Foods<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
-                        <ListGroup.Item>Fresh Produce<span ><img src="https://cdn-icons-png.flaticon.com/128/1633/1633636.png" style={{width: "2rem", margin: "2rem"}}/></span></ListGroup.Item>
+                        <div>Canned Goods<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></div>
+                        <div>Sealed Packages<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></div>
+                        <div>Dehydrated Foods<span ><img src="https://cdn-icons-png.flaticon.com/128/2415/2415418.png" style={{width: "2rem", margin: "2rem"}}/></span></div>
+                        <div>Fresh Produce<span ><img src="https://cdn-icons-png.flaticon.com/128/1633/1633636.png" style={{width: "2rem", margin: "2rem"}}/></span></div>
                     </div>
                     </div>
-            </ListGroup.Item>
-                <ListGroup.Item
-                as="li"
-                className="d-flex justify-content-between align-items-start">
-                    <div className="ms-2 me-auto">
-                    <div className="fw-bold">Feedback</div>
-                    Let us know what you think!
-                    </div>
-
             </ListGroup.Item>
         </ListGroup>
 
