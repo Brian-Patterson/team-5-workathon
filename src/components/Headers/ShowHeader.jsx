@@ -1,10 +1,18 @@
 import "../Header.css";
-import { useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function ShowHeader() {
-    const { pathname } = useLocation();
+    const navigate = useNavigate();
+
+    function handleClick() {
+        navigate(-1);
+    };
+
     return (
-        <div className="green">
+        <div className="green header-data">
+            <div onClick={handleClick} className="backbtn">
+                <img src="https://i.imgur.com/rIP5ZaN.png" alt="back button" />
+            </div>
             <h1>Pantry Details</h1>
         </div>
     )
