@@ -1,5 +1,6 @@
 import { Routes, Route, Outlet } from "react-router-dom";
 import WelcomePage from "../pages/WelcomePage";
+import LogInPage from "../pages/LogInPage";
 import HomePage from "../pages/HomePage";
 import EventsShowPage from "../pages/EventsShowPage";
 import BenefitsPage from "../pages/BenefitsPage";
@@ -14,6 +15,7 @@ const Main = (props) => {
             <Outlet />
             <Routes>
                 <Route path="/" element={<WelcomePage />} />
+                <Route path="/login" element={<LogInPage />} />
                 <Route path="/home" element={<HomePage />} />
                 <Route path="/events/details" element={<EventsShowPage />} />
                 <Route path="/benefits" element={<BenefitsPage />} />
