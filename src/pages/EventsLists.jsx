@@ -19,7 +19,7 @@ const EventsList = (props) => {
       <Card.Body className="event-body">
         <blockquote className="blockquote mb-0">
           <Card.Title className="card-title">Marin Food Bank Food Drive </Card.Title>
-          <span className="fav-icon"><img src="https://cdn-icons-png.flaticon.com/128/1000/1000621.png" style={{width: "2rem"}}/></span>
+          <span className="fav-icon"><img src="https://cdn-icons-png.flaticon.com/128/833/833472.png" style={{width: "2rem"}}/></span>
           <Card.Text className="row-2">
             12/9/2022 6:00 AM to 4:00PM 
             <br></br>
@@ -56,7 +56,7 @@ const EventsList = (props) => {
       <Card.Body className="event-body">
         <blockquote className="blockquote mb-0">
           <Card.Title>Alta Plaza Park Meal Service: SE corner </Card.Title>
-          <span className="fav-icon"><img src="https://cdn-icons-png.flaticon.com/128/1000/1000621.png" style={{width: "2rem"}}/></span>
+          <span className="fav-icon"><img src="https://cdn-icons-png.flaticon.com/128/833/833472.png" style={{width: "2rem"}}/></span>
           <Card.Text className="row-2">
             12/10/2022 6:00 AM to 4:00 PM
             <br></br>
