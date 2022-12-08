@@ -22,7 +22,7 @@ const EventsList = (props) => {
           <Card.Text className="row-2">
             12/9/2022 6:00 AM to 4:00PM 
             <br></br>
-            <span className="details-card">http://marinfoodbank.org/events</span>
+            <span className="details-card" id="red-text">http://marinfoodbank.org/events</span>
           </Card.Text>
           <footer className="blockquote-footer row-3">
             <span><img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" style={{width: "1.5rem"}}/></span> 1612 Lincoln St, CA San Francisco 94016
@@ -31,7 +31,7 @@ const EventsList = (props) => {
       </Card.Body>
     </Card>
 
-         <Card className="event-card">
+    <Card className="event-card">
       <Card.Body className="event-body">
         <blockquote className="blockquote mb-0">
           <Card.Title>Mission Food Hub Meal Service </Card.Title>
@@ -39,7 +39,7 @@ const EventsList = (props) => {
           <Card.Text className="row-2">
             12/9/2022 9:00 AM to 9:45 AM 
             <br></br>
-            <span className="details-card">Mission Food Hub will be distrubuting Grab&Go meals provided by Second Harvest.</span>
+            <span className="details-card" id="red-text">Mission Food Hub will be distrubuting Grab&Go meals provided by Second Harvest.</span>
           </Card.Text>
           <footer className="blockquote-footer row-3">
           <span><img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" style={{width: "1.5rem"}}/></span> 1923 Jackson St, CA San Francisco 94016
@@ -58,7 +58,7 @@ const EventsList = (props) => {
           <Card.Text className="row-2">
             12/10/2022 6:00 AM to 4:00 PM
             <br></br>
-            <span className="details-card">Alta Plaza Parks & Recreation will be distrubting Grab&Go meals provided by Feed America </span>
+            <span className="details-card" id="red-text">Alta Plaza Parks & Recreation will be distrubting Grab&Go meals provided by Feed America </span>
           </Card.Text>
           <footer className="blockquote-footer row-3">
           <span><img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" style={{width: "1.5rem"}}/></span> 3749 27th, CA San Francisco 94016
@@ -75,7 +75,7 @@ const EventsList = (props) => {
           <Card.Text className="row-2">
             12/9/2022 6:00 AM to 4:00 PM
             <br></br>
-            <span className="details-card">http://marinfoodbank.org/events</span>
+            <span className="details-card" id="red-text">http://marinfoodbank.org/events</span>
           </Card.Text>
           <footer className="blockquote-footer row-3">
           <span><img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" style={{width: "1.5rem"}}/></span> 2039 35th, CA San Francisco 94016

@@ -18,7 +18,7 @@ export default function App() {
     <div className="App">
       {pathname === "/" ? null : <Header />}
       <Main />
-      {pathname === "/" ? null : <Footer />}
+      {pathname !== "/" && pathname !== "/login" ? <Footer /> : null}
     </div>
   );
 }
