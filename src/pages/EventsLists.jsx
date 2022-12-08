@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card"
 import "./EventsList.css"
+import {NavLink} from "react-router-dom"
 
 const EventsList = (props) => {
     return (
@@ -12,8 +13,8 @@ const EventsList = (props) => {
         <button className="nav-button sa">School Assistence</button>
     </nav>
 
-        <h1 className="event-date">12/08/2022 </h1>
-
+        <h1 className="event-date">12/09/2022 </h1>
+    <NavLink to="/events/details">
     <Card className="event-card">
       <Card.Body className="event-body">
         <blockquote className="blockquote mb-0">
@@ -30,7 +31,8 @@ const EventsList = (props) => {
         </blockquote>
       </Card.Body>
     </Card>
-
+    </NavLink>
+    
     <Card className="event-card">
       <Card.Body className="event-body">
         <blockquote className="blockquote mb-0">
@@ -48,7 +50,7 @@ const EventsList = (props) => {
       </Card.Body>
     </Card>
 
-    <h1 className="event-date" style={{marginTop: "2rem"}}>12/08/2022</h1>
+    <h1 className="event-date" style={{marginTop: "2rem"}}>12/10/2022</h1>
 
     <Card className = "event-card">
       <Card.Body className="event-body">
@@ -73,7 +75,7 @@ const EventsList = (props) => {
           <Card.Title>Marin Food Bank Food Drive </Card.Title>
           <span className="fav-icon"><img src="https://cdn-icons-png.flaticon.com/128/1000/1000621.png" style={{width: "2rem"}}/></span>
           <Card.Text className="row-2">
-            12/9/2022 6:00 AM to 4:00 PM
+            12/10/2022 6:00 AM to 4:00 PM
             <br></br>
             <span className="details-card" id="red-text">http://marinfoodbank.org/events</span>
           </Card.Text>
