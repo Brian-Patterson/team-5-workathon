@@ -37,7 +37,6 @@
     margin: 1rem;
     text-align: left;
     display: grid;
-
     grid-template-columns: repeat(5, 1fr);
 }
 
@@ -51,11 +50,19 @@
     width: 12rem;
 }
 
-.home-bank-review{
+#home-bank-review{
     color:red;
     text-decoration: underline;
 }
 
 .home-review-stars{
     padding-right: 1rem;
+}
+
+.navlink{
+    text-decoration: none;
+}
+
+.home-bank-name{
+    text-decoration: none;
 }
