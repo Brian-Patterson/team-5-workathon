@@ -13,8 +13,8 @@ export default function FavoritesPage(props) {
         </nav>
 
     <NavLink to="/events/details" className="events-link" style={{textDecoration: "none"}} >
-    <Card className="event-card">
-      <Card.Body className="event-body">
+    <div className="event-card">
+      <div className="event-body">
         <blockquote className="blockquote mb-0">
           <Card.Title className="card-title">Marin Food Bank Food Drive </Card.Title>
           <span className="fav-icon"><img src="https://cdn-icons-png.flaticon.com/128/833/833472.png" style={{width: "2rem"}}/></span>
@@ -27,12 +27,12 @@ export default function FavoritesPage(props) {
             <span><img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" style={{width: "1.5rem"}}/></span> 1612 Lincoln St, CA San Francisco 94016
           </footer>
         </blockquote>
-      </Card.Body>
-    </Card>
+      </div>
+    </div>
     </NavLink>
 
-    <Card className = "event-card">
-      <Card.Body className="event-body">
+    <div className = "event-card">
+      <div className="event-body">
         <blockquote className="blockquote mb-0">
           <Card.Title>Alta Plaza Park Meal Service: SE corner </Card.Title>
           <span className="fav-icon"><img src="https://cdn-icons-png.flaticon.com/128/833/833472.png" style={{width: "2rem"}}/></span>
@@ -45,8 +45,8 @@ export default function FavoritesPage(props) {
           <span><img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" style={{width: "1.5rem"}}/></span> 3749 27th, CA San Francisco 94016
           </footer>
         </blockquote>
-      </Card.Body>
-    </Card> 
+      </div>
+    </div> 
             </body>
         </>
     )

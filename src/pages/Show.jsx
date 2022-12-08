@@ -75,12 +75,9 @@ export default function Show(props) {
         <Card className="bg-dark text-white">
         <Card.Img className="d-block h-100" src="https://images.pexels.com/photos/6590920/pexels-photo-6590920.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Card image" />
         <Card.ImgOverlay>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-            </Card.Text>
-            <Card.Text>Last updated 3 mins ago</Card.Text>
+            <Card.Title></Card.Title>
+            <Card.Text></Card.Text>
+            <Card.Text></Card.Text>
         </Card.ImgOverlay>
         </Card>
       </Carousel.Item>
@@ -88,12 +85,9 @@ export default function Show(props) {
       <Card className="bg-dark text-white">
         <Card.Img className="d-block h-100" src="https://images.pexels.com/photos/9196490/pexels-photo-9196490.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Card image" />
         <Card.ImgOverlay>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-            </Card.Text>
-            <Card.Text>Last updated 3 mins ago</Card.Text>
+            <Card.Title></Card.Title>
+            <Card.Text></Card.Text>
+            <Card.Text></Card.Text>
         </Card.ImgOverlay>
         </Card>
       </Carousel.Item>
@@ -101,12 +95,9 @@ export default function Show(props) {
       <Card className="bg-dark text-white">
         <Card.Img className="d-block h-100" src="https://images.pexels.com/photos/6647115/pexels-photo-6647115.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Card image" />
         <Card.ImgOverlay>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-            </Card.Text>
-            <Card.Text>Last updated 3 mins ago</Card.Text>
+            <Card.Title></Card.Title>
+            <Card.Text></Card.Text>
+            <Card.Text></Card.Text>
         </Card.ImgOverlay>
         </Card>
       </Carousel.Item>

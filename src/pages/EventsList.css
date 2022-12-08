@@ -4,9 +4,9 @@
 
 .event-card {
     text-align: left;
-
     color: #0B2156;
     margin: 2rem;
+    text-decoration: none;
 }
 
 .event-date{
@@ -17,6 +17,7 @@
 
 .event-body {
     background-color: #EAE9E7;
+    
 }
 
 .fav-icon {
