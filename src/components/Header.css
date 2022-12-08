@@ -11,7 +11,7 @@
 .navy > h1, .red > h1,  .green > h1 {
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-end;
     padding-bottom: 1.6rem;
 }
@@ -26,4 +26,16 @@
 
 .green {
     background-color: #219B8C;
+}
+
+.header-data {
+    display: grid;
+    grid-template-columns: .6fr 1fr;
+}
+
+.backbtn {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1.6rem;
+    margin-left: 3.6rem;
 }
