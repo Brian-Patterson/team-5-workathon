@@ -32,3 +32,30 @@
     margin: 1rem 1rem 1rem 0;
     padding: .5rem 1rem;
 }
+
+.home-card{
+    margin: 1rem;
+    text-align: left;
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.home-card-info{
+    grid-column: 3/span 3;
+    padding-bottom: 3rem;
+}
+
+.img-placeholder{
+    grid-column: 1/span 2;
+    width: 12rem;
+}
+
+.home-bank-review{
+    color:red;
+    text-decoration: underline;
+}
+
+.home-review-stars{
+    padding-right: 1rem;
+}
