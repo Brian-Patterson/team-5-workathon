@@ -32,6 +32,7 @@ const EventsList = (props) => {
 };
 
 export default EventsList;
+<<<<<<< HEAD
 // =======
 //     return (
 //         <>
@@ -123,3 +124,5 @@ export default EventsList;
 
 // export default EventsList
 
+=======
+>>>>>>> 4985b89931a185aff51aeb850942333254ecd62b

@@ -30,8 +30,8 @@ export default function BenefitsPage(props) {
     </nav>
 
 
-    <Card className="event-card">
-      <Card.Body className="event-body">
+    <div className="event-card">
+      <div className="event-body">
         <Card.Title>CalFresh</Card.Title>
         <Card.Text>
           CalFresh (formerly known as FoodStamps) is an entitlement program that provides
@@ -53,11 +53,11 @@ export default function BenefitsPage(props) {
                 <h5>Eligibility</h5>
             </button>
         </div>
-      </Card.Body>
-    </Card>
+      </div>
+    </div>
 
-    <Card className="event-card">
-      <Card.Body className="event-body">
+    <div className="event-card">
+      <div className="event-body">
         <Card.Title>WIC Farmers' Market Nutrition Program (FMNP)</Card.Title>
         <Card.Text>
           The California Special Suuplemental Nutrition Program for Women, Infants, and Children (WIC) provides supplimental
@@ -79,11 +79,11 @@ export default function BenefitsPage(props) {
                 <h5>Eligibility</h5>
             </button>
         </div>
-      </Card.Body>
-    </Card>
+      </div>
+    </div>
 
-    <Card className="event-card">
-      <Card.Body className="event-body">
+    <div className="event-card">
+      <div className="event-body">
         <Card.Title>National School Breakfast & Lunch Program</Card.Title>
         <Card.Text>
           The United States Department of Agriculture provides funding to support five school meal and milk programs 
@@ -104,8 +104,8 @@ export default function BenefitsPage(props) {
                 <h5>Eligibility</h5>
             </button>
         </div>
-      </Card.Body>
-    </Card>
+      </div>
+    </div>
     </body>
     </>
     )
