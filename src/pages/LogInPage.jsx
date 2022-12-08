@@ -11,11 +11,11 @@ export default function LogInPage(props) {
                 Find Food Banks Near You
             </div>
             <div className="login-fields monstserrat-font">
-                <div className="login-text-entry">
-                    username
+            <div className="login-text-entry">
+                    linda.herrera@gmail.com
                 </div>
                 <div className="login-text-entry">
-                    password
+                    * * * * * * * *
                 </div>
                 <NavLink to="/home" className="login-page-btn">
                     <div className="login-button">
