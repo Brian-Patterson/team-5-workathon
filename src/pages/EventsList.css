@@ -4,7 +4,6 @@
 
 .event-card {
     text-align: left;
-    background-color: red;
     color: #0B2156;
     margin: 2rem; 
 }
@@ -52,4 +51,8 @@
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
+}
+
+#red-text {
+    color: red;
 }
