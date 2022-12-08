@@ -6,6 +6,12 @@ const EventsList = (props) => {
         <>
         <body className="body">
 
+    <nav className="benefits-nav">
+        <button className="nav-button wic">WIC</button>
+        <button className="nav-button fs">Food Stamps</button>
+        <button className="nav-button sa">School Assistence</button>
+    </nav>
+
         <h1 className="event-date">12/08/2022 </h1>
 
     <Card className="event-card">

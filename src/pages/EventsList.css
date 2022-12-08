@@ -5,7 +5,8 @@
 .event-card {
     text-align: left;
     color: #0B2156;
-    margin: 2rem; 
+    margin: 2rem;
+    background-color: #EAE9E7; 
 }
 
 .event-date{
@@ -15,7 +16,7 @@
 }
 
 .event-body {
-    background-color: lightgray;
+    background-color: #EAE9E7;
 }
 
 .fav-icon {

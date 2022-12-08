@@ -2,3 +2,24 @@
     width: 1rem;
     height: 1rem; 
 }
+
+.event-map {
+    width: 30rem;
+    margin: 2rem;
+}
+
+.event-show-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem; 
+}
+
+.event-eligible-foods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.eligibility {
+    margin-top: 1rem;
+}
