@@ -15,9 +15,12 @@ export default function EventsShowPage(props) {
             <Card.Title>SF - Marin Food Bank</Card.Title>
             <Card.Text>
             900 Pennsylvania Ave, San Francisco, CA 94107
-            <br></br>
-            <img src="https://cdn-icons-png.flaticon.com/128/992/992000.png" style={{width: "7rem"}}/>
             </Card.Text>  
+            <div className='show-stars'>
+            <img src="https://cdn-icons-png.flaticon.com/128/8138/8138510.png" style={{width: "2rem"}}/><img src="https://cdn-icons-png.flaticon.com/128/8138/8138510.png" style={{width: "2rem"}}/><img src="https://cdn-icons-png.flaticon.com/128/8138/8138510.png" style={{width: "2rem"}}/><img src="https://cdn-icons-png.flaticon.com/128/8138/8138510.png" style={{width: "2rem"}}/>
+            <p className='show-review'>Leave A Review!</p>
+            </div>
+            
         </Card.Body>
         <div className='event-show-info'>
             <div>

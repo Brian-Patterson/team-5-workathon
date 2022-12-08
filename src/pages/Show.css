@@ -2,3 +2,37 @@
     width: 2rem; 
 }
 
+.bank-show-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: .25rem;
+     
+}
+
+.show-details {
+    display: grid; 
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 2rem;
+
+}
+
+.show-eligibility{
+    display: flex;
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.show-detail-title{
+    font-size: 1.5rem;
+}
+
+.show-stars {
+    margin: 1rem;
+}
+
+.show-review {
+    font-size: 1.5rem;
+}
+

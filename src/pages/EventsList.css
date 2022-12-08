@@ -4,9 +4,9 @@
 
 .event-card {
     text-align: left;
+
     color: #0B2156;
     margin: 2rem;
-    background-color: #EAE9E7; 
 }
 
 .event-date{
@@ -28,6 +28,10 @@
 
 .details-card{
     color: red;
+}
+
+.events-link {
+    text-decoration: none;
 }
 
 .blockquote-footer{
@@ -52,8 +56,4 @@
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-}
-
-#red-text {
-    color: red;
 }
