@@ -4,13 +4,14 @@ import { NavLink } from 'react-router-dom';
 
 export default function EventCard(events) {
     return (
-      <>      
+      <>
+      {events.events ? events.map((event, idx) => {
         <NavLink to="/events/details">
             <div className="event-card">
                 <div className="event-body">
                     <blockquote className="blockquote mb-0">
                         <Card.Title className="card-title">
-                            {events.events.name}
+                            {event.events.name}
                         </Card.Title>
                         <span className="fav-icon">
                         <img
@@ -19,10 +20,10 @@ export default function EventCard(events) {
                         />
                         </span>
                         <Card.Text className="row-2">
-                            {events.events.date} {events.events.startTime} to {events.events.endTime}
+                            {event.events.date} {event.events.startTime} to {events.events.endTime}
                         <br></br>
                         <span className="details-card">
-                            {events.events.link}
+                            {event.events.link}
                         </span>
                         </Card.Text>
                         <footer className="blockquote-footer row-3">
@@ -32,14 +33,15 @@ export default function EventCard(events) {
                             style={{ width: "1.5rem" }}
                             />
                         </span>{" "}
-                            {events.events.address}
+                            {event.events.address}
                         </footer>
                     </blockquote>
                 </div>
             </div>
         </NavLink>
+    }) : <h1>No Events Today</h1>} 
         </>
-    );
+    )
   }
 
 
