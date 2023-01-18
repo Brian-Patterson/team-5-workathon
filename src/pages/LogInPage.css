@@ -63,3 +63,9 @@
 .login-page-btn {
     text-decoration: none;
 }
+
+@media (min-width: 600px){
+    .img-container-login > img {
+        width: 85%;
+    }
+}
